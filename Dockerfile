@@ -14,4 +14,4 @@ RUN apt-get install -y git
 RUN mkdir /var/www
 RUN cd /var/www
 
-RUN git pull https://github.com/tiltedlistener/basic-node.git
+RUN git clone https://github.com/tiltedlistener/basic-node.git
